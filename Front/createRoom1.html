@@ -9,18 +9,27 @@
 </head>
 <body>
     <div class="header">
-        <h1>팀을 정할 총 인원 수와 나눌 팀 수를 입력해주세요!</h1>
+        <p class="headerText">팀을 정할 총 <span class="highlight">인원 수</span>와 <span class="highlight">나눌 팀 수</span>를 입력해주세요!</p>
     </div>
-    <div class="input">
-        <div class="backgroundItem">
-            <div>총 인원수</div>
-            <input type="number" name="headCount" value="인원수 입력">
+
+    
+    <div class="content">
+        <div class="innerItem">
+            <p class="inputText">총 인원수</p>
+            <span class="input">
+                <input class="inputStyle" type="number" name="headCount" value="인원수 입력">
+                <p>명</p>
+            </span>
         </div>
-        <div class="backgroundItem">
-            <div>팀 개수</div>
-            <input type="number" name="teamCount">
+
+        <div class="innerItem">
+            <p class="inputText">팀 개수</p>
+            <span class="input">
+                <input class="inputStyle" type="number" name="teamCount">
+                <p>개</p>
+            </span>
         </div>
     </div>
-    <button class="nextBtn">다음</button>
+    <a href="/Front/createRoom2.html" class="nextBtn" id="nextBtn">다음</a>
 </body>
 </html>

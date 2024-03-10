@@ -1,6 +1,81 @@
-.input {
-    display: flex;
+.headerText {
+    font-size: 50px;
+    font-weight: bolder;
 }
-h1 {
+
+.highlight {
     background: none;
+    color:bisque;
+    font-weight: 900;
+}
+
+p {
+    background: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+.innerItem {
+    width: 500px;
+    margin: 80px 100px 50px 100px;
+    border: 1.5px solid black;
+
+    line-height: 400%;
+    
+}
+
+.input {
+    
+    display: flex;
+    background: none;
+    justify-content: center;
+}
+
+.input > p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+}
+.inputText {
+    
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.inputStyle {
+    display: flex;
+    height: 60px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    max-width: 150px;
+    margin: 0 0 0 30px;
+}
+
+.nextBtn {
+    position: absolute;
+    right: 30px;
+    width: 70px;
+    height: 50px;
+    color: white;
+    border-radius: 10%;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 1.5px solid black;
+    line-height: 50px;
+}
+
+a {
+    text-decoration-line: none;
 }
