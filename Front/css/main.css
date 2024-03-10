@@ -1,5 +1,6 @@
 * {
     background-color: #FEFBF6;
+    font-family: 'GmarketSansMedium';
 }
 
 .header {
@@ -20,4 +21,11 @@
 
 .nextBtn {
     background-color: #B67352;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
