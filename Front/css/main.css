@@ -5,19 +5,32 @@
 .header {
     display: flex;
     justify-content: center;
-    width: 300px;
     background-color: #8CB9BD;
     
 }
 
-.backgroundItem {
+.innerItem {
     background-color: #ECB159;
 }
 
-.innerItem {
+.BackgroundItem {
     background-color: #FEFBF6;
 }
 
 .nextBtn {
     background-color: #B67352;
+}
+
+.inputList, .inputList > p {
+    background-color: transparent;
+}
+
+.btnList {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputList {
+    display: flex;
+    flex-direction: ;
 }
