@@ -29,8 +29,21 @@ p {
     border: 1.5px solid black;
     line-height: 200%;
     height: 200px;
+    text-align: center;
 }
 
+.backgroundItem > p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    padding: 30px 0 0 0;
+}
+
+.backgroundItem > img {
+    background-color:transparent;
+}
 .input {
     display: flex;
     background: none;
@@ -81,4 +94,8 @@ p {
 
 a {
     text-decoration-line: none;
+}
+#prevBtn {
+    position: absolute;
+    left: 30px;
 }
