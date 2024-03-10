@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     background-color: #FEFBF6;
     font-family: 'GmarketSansMedium';
@@ -52,6 +53,9 @@
 .innerItem {
     background-color: #ECB159;
     justify-content: center;
+}
+
+.backgroundItem {
     width: 300px;
     width: 70%;
     height: 250px;
@@ -67,6 +71,8 @@
 
 .nextBtn {
     background-color: #B67352;
+
+    margin-left: 10%;
 }
 
 .inputList, .inputList > p {
@@ -77,6 +83,7 @@
 .btnList {
     display: flex;
     flex-direction: row;
+
 }
 
 .inputList {
