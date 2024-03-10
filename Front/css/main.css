@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 * {
     background-color: #FEFBF6;
     font-family: 'GmarketSansMedium';
@@ -25,7 +25,6 @@
     margin-left: 15%;
     border-radius: 20px;
     background-color: #8CB9BD;
-    display: flex;
     
 }
 
@@ -40,7 +39,7 @@
 
 .innerText, .innerItem {
     color : white;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .code {
@@ -50,12 +49,9 @@
     margin-left: 20px;
 }
 
-.innerItem {
+.btnItem {
     background-color: #ECB159;
     justify-content: center;
-}
-
-.backgroundItem {
     width: 300px;
     width: 70%;
     height: 250px;
@@ -63,6 +59,8 @@
     margin: 5%;
     border-radius: 20px;
     border : 0px solid white;
+    color : white;
+    font-size: 40px;
 }
 
 .BackgroundItem {
@@ -71,7 +69,6 @@
 
 .nextBtn {
     background-color: #B67352;
-
     margin-left: 10%;
 }
 
@@ -82,8 +79,7 @@
 
 .btnList {
     display: flex;
-    flex-direction: row;
-
+    flex-direction: row;    
 }
 
 .inputList {

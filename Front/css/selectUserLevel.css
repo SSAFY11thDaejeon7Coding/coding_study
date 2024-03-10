@@ -1,0 +1,93 @@
+.header {
+    width: 45%;
+    margin-left: 25%;
+    height: 10%;
+}
+
+.headerText{
+    background-color: #8CB9BD;
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.btnList {
+    background-color: #ECB159;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    width: 65%;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 15%;
+    margin-bottom: 60px;
+    border-radius: 20px;
+}
+
+.formList {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tier , .level{
+    width: 30vh;
+    height: 50%;
+    font-size : 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+.tier {
+    color: #d1794d;
+}
+
+.bornze {
+    color: #d1794d;
+}
+
+.silver {
+    color : #b1b1b1;
+}
+
+.gold {
+    color : #ebb905;
+}
+
+.pletinum {
+    color : #18d1a3;
+}
+
+.diamond {
+    color : #4d6bd6;
+}
+
+.highlight {
+    background: none;
+    color:bisque;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.nextBtn {
+    background-color: #B67352;
+    color : white;
+    border : 1px solid white;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 78%;
+}
+
+.nextbtnClass {
+    background-color: transparent;
+    color : white;
+    font-size: 45px;
+    border : none;
+}
