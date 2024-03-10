@@ -1,0 +1,101 @@
+.headerText {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.header {
+    height: 180px;
+    padding: auto;
+}
+
+.highlight {
+    background: none;
+    color:bisque;
+    font-weight: 900;
+}
+
+p {
+    background: none;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    
+}
+.backgroundItem {
+    width: 400px;
+    margin:  0 50px;
+    border: 1.5px solid black;
+    line-height: 200%;
+    height: 200px;
+    text-align: center;
+}
+
+.backgroundItem > p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+    padding: 30px 0 0 0;
+}
+
+.backgroundItem > img {
+    background-color:transparent;
+}
+.input {
+    display: flex;
+    background: none;
+    justify-content: center;
+}
+
+.input > p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    margin: 0 0 20px 0;
+}
+.inputText {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.inputStyle {
+    display: flex;
+    height: 60px;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    max-width: 150px;
+    margin: 0 0 0 30px;
+}
+
+.nextBtn {
+    position: absolute;
+    right: 30px;
+    width: 70px;
+    height: 50px;
+    color: white;
+    border-radius: 10%;
+    border: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 1.5px solid black;
+    line-height: 50px;
+    margin: 10px;
+}
+
+a {
+    text-decoration-line: none;
+}
+#prevBtn {
+    position: absolute;
+    left: 30px;
+}
