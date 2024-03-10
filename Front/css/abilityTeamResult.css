@@ -1,0 +1,66 @@
+.header {
+  color: white;
+  font-size: 80px;
+  width: 1200px;
+  height: 214px;
+  margin: 50px auto;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.backgroundItem {
+  display: flex;
+  width: 1600px;
+  margin: 50px auto;
+  padding: 110px 0px;
+  justify-content: space-evenly;
+  border-radius: 30px;
+}
+
+.innerItem {
+  width: 600px;
+  height: fit-content;
+  border-radius: 30px;
+}
+
+.teamName {
+  margin: 30px auto;
+  width: fit-content;
+  font-size: 120px;
+}
+
+.names {
+  margin: 50px auto;
+  width: fit-content;
+  font-size: 80px;
+}
+
+.name {
+  display: flex;
+  height: fit-content;
+  align-items: center;
+}
+
+.tearImg {
+  display: block;
+  margin-left: 30px;
+  padding-bottom: 10px;
+  width: 70px;
+}
+
+.buttonArea {
+  display: flex;
+  justify-content: center;
+}
+
+.mainBtn {
+  display: block;
+  margin-left: 1650px;
+  width: 230px;
+  height: 100px;
+  border-radius: 30px;
+  font-size: 50px;
+  color: white;
+  background-color: #B67352;
+}
