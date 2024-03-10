@@ -27,9 +27,10 @@ p {
     width: 400px;
     margin:  0 50px;
     border: 1.5px solid black;
-    line-height: 200%;
     height: 200px;
     text-align: center;
+    align-items: center;
+    position: relative;
 }
 
 .backgroundItem > p {
@@ -44,6 +45,7 @@ p {
 .backgroundItem > img {
     background-color:transparent;
 }
+
 .input {
     display: flex;
     background: none;
@@ -80,6 +82,7 @@ p {
 .nextBtn {
     position: absolute;
     right: 30px;
+    bottom: 20px;
     width: 70px;
     height: 50px;
     color: white;
@@ -95,7 +98,69 @@ p {
 a {
     text-decoration-line: none;
 }
+
 #prevBtn {
     position: absolute;
     left: 30px;
+}
+
+
+.code-content {
+    display: block;
+    text-align: center;
+    justify-items: center;
+}
+
+#code-name {
+    height: 200px;
+    width: 75%;
+    line-height: 200px;
+    margin: 0 auto;
+    font-size: 600%;
+    color: white;
+    letter-spacing: 30px;
+}
+
+#current-count {
+    height: 50px;
+    width: 75%;
+    line-height: 50px;
+    margin: 0 auto;
+    color: black;
+    font-weight: bold;
+    top: 52px;
+    background: none;
+}
+
+.current-count-progress {
+    appearance: none;
+    z-index: 1;
+    background-color: #ECB159;
+    border: 0;
+    justify-content: center;
+    border-radius: 20px;
+    height: 50px;
+    width: 75%;
+}
+
+#progress {
+    z-index: 2;
+    margin-bottom: 17px;
+    appearance: none;
+    width: 75%;
+    height: 50px;
+}
+  
+#progress::-webkit-progress-bar {
+    background: #f0f0f0;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    height: 50px;
+    overflow: hidden;
+}
+
+#progress::-webkit-progress-value {
+    background: #fdd4d6;
+    border-left: 20px;
+    height: 50px;
 }
