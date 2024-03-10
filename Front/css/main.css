@@ -6,9 +6,24 @@
 .header {
     display: flex;
     justify-content: center;
-    width: 300px;
+    width: 70%;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 15%;
+    border-radius: 20px;
+
     background-color: #8CB9BD;
+    display: flex;
     
+}
+
+.headerText{
+    background-color: #8CB9BD;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
 }
 
 .backgroundItem {
