@@ -1,15 +1,7 @@
 * {
     background-color: #FEFBF6;
-}
-
-* {
-    background-color: #FEFBF6;
     font-family: 'GmarketSansMedium';
 }
-
-.header {
-
-@@ -20,4 +21,11 @@
 
 .nextBtn {
     background-color: #B67352;
@@ -25,20 +17,12 @@
 .header {
     display: flex;
     justify-content: center;
-    background-color: #8CB9BD;
-    
-}
-
-.header {
-    display: flex;
-    justify-content: center;
     width: 300px;
     width: 70%;
     height: 250px;
     margin-top: 60px;
     margin-left: 15%;
     border-radius: 20px;
-
     background-color: #8CB9BD;
     display: flex;
     
@@ -53,12 +37,15 @@
     margin: auto;
 }
 
-.backgroundItem {
-    background-color: #ECB159;
-}
-
 .innerItem {
     background-color: #ECB159;
+    justify-content: center;
+    width: 300px;
+    width: 70%;
+    height: 250px;
+    margin-top: 60px;
+    margin-left: 10%;
+    border-radius: 20px;
 }
 
 .BackgroundItem {
