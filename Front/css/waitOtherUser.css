@@ -1,0 +1,61 @@
+.headerText{
+    font-size: 90px;
+}
+
+.backgroundItem {
+
+    align-items: center;
+
+    display: flex;
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+.container{
+    background-color: #ECB159;
+    width: 97%;
+    height: 95%;
+    overflow-y: auto;
+}
+
+.mainBtn {
+    display: block;
+    margin-left: 1650px;
+    width: 230px;
+    height: 100px;
+    font-size: 50px;
+    color: white;
+    background-color: #B67352;
+    border-radius: 30px;
+    box-shadow: 5px 10px 10px gray;
+  }
+  
+  .items{
+    background-color: #ECB159;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .item{
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.userName{
+    font-size: 60px;
+}
+.state{
+    width: 150px;
+    height: 60px;
+}
