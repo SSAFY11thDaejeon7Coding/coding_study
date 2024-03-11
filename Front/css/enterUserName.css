@@ -4,34 +4,56 @@
     display: flex;    
 }
 
+.header{
+    min-width: 1300px;
+}
+
 .backgroundItem {
-
+    min-width: 800px;
     align-items: center;
-
-    display: flex;
+    text-align: center;
     width: 50%;
-    height: 500px;
+    height: 100%;
     margin-left: 25%;
     margin-right: 70px;
+    border: 1px solid black;
+
+}
+
+.notice{
+    background: none;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .nameBox{
-    
-    width: 700px;
+    width: 60%;
     height: 150px;
     font-size: 80px;
     text-align: center;
 
-    /* background: none;
-    border : none;
-    border-bottom: 2px bisque;
-    outline: none; */
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    border-width: 5px;
+
 }
+.nameBox:focus{
+    outline: none;
+}
+
+
+
 
 .nextBtn{
     margin-top: 420px;
     margin-left: 50px;
     width: 150px;
+    min-width: 150px;
     height: 75px;
     border-radius: 20px;
     color: white;
