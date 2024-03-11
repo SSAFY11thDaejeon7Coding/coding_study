@@ -20,6 +20,7 @@
     margin-bottom: 60px;
     border-radius: 20px;
     background-color: #8CB9BD;
+    box-shadow: 5px 10px 10px gray;
 }
 
 .headerText{
@@ -35,6 +36,7 @@
     background-color: #ECB159;
     justify-content: center;
     border-radius: 20px;
+    box-shadow: 5px 10px 10px gray;
 
     /* width, height, margin은 필요에 따라 각 페이지.css에서 재할당하세요 */
     width: 20%;
@@ -48,6 +50,7 @@
     /* width, height, margin은 필요에 따라 각 페이지.css에서 재할당하세요 */
     width: 20%;
     height: 10%;
+    box-shadow: 5px 10px 10px gray;
 }
 
 .nextBtn {

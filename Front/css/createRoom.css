@@ -1,11 +1,12 @@
 .headerText {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bolder;
 }
 
 .header {
-    height: 180px;
+    height: 214px;
     padding: auto;
+    box-shadow: 5px 10px 10px gray;
 }
 
 .highlight {
@@ -24,26 +25,26 @@ p {
     
 }
 .backgroundItem {
-    width: 400px;
-    margin:  0 50px;
-    border: 1.5px solid black;
-    height: 200px;
+    width: 500px;
+    margin:  70px 100px;
+    height: 300px;
     text-align: center;
     align-items: center;
     position: relative;
+    box-shadow: 5px 10px 10px gray;
 }
 
 .backgroundItem > p {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
-    padding: 15px;
     margin: 0 0 20px 0;
-    padding: 30px 0 0 0;
+    line-height: 150px;
 }
 
 .backgroundItem > img {
     background-color:transparent;
+    width: 100px;
 }
 
 .input {
@@ -54,14 +55,14 @@ p {
 
 .input > p {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     padding: 15px;
     margin: 0 0 20px 0;
 }
 .inputText {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     color: white;
 }
 
@@ -83,16 +84,15 @@ p {
     position: absolute;
     right: 30px;
     bottom: 20px;
-    width: 70px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
     color: white;
-    border-radius: 10%;
+    border-radius: 30px;
     border: 0;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
-    border: 1.5px solid black;
-    line-height: 50px;
-    margin: 10px;
+    line-height: 100px;
+    box-shadow: 5px 10px 10px gray;
 }
 
 a {
@@ -101,7 +101,7 @@ a {
 
 #prevBtn {
     position: absolute;
-    left: 30px;
+    left: 230px;
 }
 
 
@@ -112,23 +112,28 @@ a {
 }
 
 #code-name {
-    height: 200px;
-    width: 75%;
-    line-height: 200px;
-    margin: 0 auto;
+    line-height: 300px;
     font-size: 600%;
     color: white;
     letter-spacing: 30px;
+    width: 75%;
+    margin: 70px auto;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 5px 10px 10px gray;
+
 }
 
 #current-count {
-    height: 50px;
+    height: 80px;
     width: 75%;
-    line-height: 50px;
+    line-height: 80px;
     margin: 0 auto;
     color: black;
     font-weight: bold;
-    top: 52px;
+    top: 80px;
     background: none;
 }
 
@@ -139,7 +144,7 @@ a {
     border: 0;
     justify-content: center;
     border-radius: 20px;
-    height: 50px;
+    height: 80px;
     width: 75%;
 }
 
@@ -148,19 +153,19 @@ a {
     margin-bottom: 17px;
     appearance: none;
     width: 75%;
-    height: 50px;
+    height: 80px;
 }
   
 #progress::-webkit-progress-bar {
     background: #f0f0f0;
     border-radius: 20px;
     border: 1px solid #eeeeee;
-    height: 50px;
+    height: 80px;
     overflow: hidden;
 }
 
 #progress::-webkit-progress-value {
     background: #fdd4d6;
     border-left: 20px;
-    height: 50px;
+    height: 80px;
 }

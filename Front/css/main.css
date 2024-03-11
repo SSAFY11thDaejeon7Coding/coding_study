@@ -25,7 +25,6 @@
     margin-left: 15%;
     border-radius: 20px;
     background-color: #8CB9BD;
-    
 }
 
 .headerText{
@@ -61,10 +60,12 @@
     border : 0px solid white;
     color : white;
     font-size: 40px;
+    box-shadow: 5px 10px 10px gray;
 }
 
 .BackgroundItem {
     background-color: #FEFBF6;
+    
 }
 
 .nextBtn {
@@ -75,11 +76,13 @@
 .inputList, .inputList > p {
     background-color: transparent;
     align-items: center;
+    
 }
 
 .btnList {
     display: flex;
     flex-direction: row;    
+    
 }
 
 .inputList {
