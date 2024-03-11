@@ -56,6 +56,7 @@
     font-size: 60px;
 }
 .state{
-    width: 150px;
-    height: 60px;
+    display: block;
+    margin-bottom: 15px;
+    width: 100px;
 }
