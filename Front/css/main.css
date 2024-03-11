@@ -91,3 +91,9 @@
     justify-content: center;
     height: 40%;
 }
+
+a {
+    background: none;
+    text-decoration: none;
+    color: pink;
+}
