@@ -8,28 +8,35 @@
     <link rel="stylesheet" href="css/createRoom.css">
 </head>
 <body>
-    <div class="header">
-        <p class="headerText">팀을 정할 총 <span class="highlight">인원 수</span>와 <span class="highlight">나눌 팀 수</span>를 입력해주세요!</p>
-    </div>
-
+    <div class="sidebar">
+        <a class="menu" href="main.html">팀짜죠</a>
+        <a class="menu" href="#">메뉴 2</a>
+        <a class="menu" href="#">메뉴 3</a>
+      </div>
     
-    <div class="content">
-        <div class="backgroundItem">
-            <p class="inputText">총 인원수</p>
-            <span class="input">
-                <input class="inputStyle" type="number" name="headCount" value="인원수 입력">
-                <p>명</p>
-            </span>
+      <div class="contentContainer">
+        <div class="header">
+            <p class="headerText">팀을 정할 총 <span class="highlight">인원 수</span>와 <span class="highlight">나눌 팀 수</span>를 입력해주세요!</p>
         </div>
-
-        <div class="backgroundItem">
-            <p class="inputText">팀 개수</p>
-            <span class="input">
-                <input class="inputStyle" type="number" name="teamCount">
-                <p>개</p>
-            </span>
+        
+        <div class="content">
+            <div class="backgroundItem">
+                <p class="inputText">총 인원수</p>
+                <span class="input">
+                    <input class="inputStyle" type="number" name="headCount" value="인원수 입력">
+                    <p>명</p>
+                </span>
+            </div>
+    
+            <div class="backgroundItem">
+                <p class="inputText">팀 개수</p>
+                <span class="input">
+                    <input class="inputStyle" type="number" name="teamCount">
+                    <p>개</p>
+                </span>
+            </div>
         </div>
-    </div>
-    <a href="/Front/createRoom2.html" class="nextBtn" id="nextBtn">다음</a>
+        <a href="/Front/createRoom2.html" class="nextBtn" id="nextBtn">다음</a>
+      </div>
 </body>
 </html>

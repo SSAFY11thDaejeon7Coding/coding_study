@@ -6,31 +6,39 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/default.css">
     <link rel="stylesheet" href="css/selectUserLevel.css">
+    <script src="/js/selectUserLevel.js" defer></script>
 <body>
-    <div class="header">
-        <p class="headerText">자신의 <u class="highlight">백준 티어</u>를 선택해주세요!</p>
-    </div>
-    <div class="btnList">
-        <form action="" class="formList">
-            <select id="tierID" class="tier" onchange="changeColor()">
-                <option value="Bronze" class="bornze">브론즈</option>
-                <option value="Silver" class="silver">실버</option>
-                <option value="Gold" class="gold">골드</option>
-                <option value="Pletinum" class="pletinum">플레</option>
-                <option value="Diamond" class="diamond">다이아</option>
-            </select>
-            <select name="level" class="level">
-                <option value="five">5</option>
-                <option value="four">4</option>
-                <option value="three">3</option>
-                <option value="two">2</option>
-                <option value="one">1</option>
-            </select>
-        </form>
-    </div>
-    <div class="nextBtn">
-        <button class="nextbtnClass" id="nextBtn">다음</button>
-    </div>
-    <script src="/js/selectUserLevel.js"></script>
+    <div class="sidebar">
+        <a class="menu" href="main.html">팀짜죠</a>
+        <a class="menu" href="#">메뉴 2</a>
+        <a class="menu" href="#">메뉴 3</a>
+      </div>
+    
+      <div class="container">
+        <div class="header">
+            <p class="headerText">자신의 <u class="highlight">백준 티어</u>를 선택해주세요!</p>
+        </div>
+        <div class="btnList">
+            <form action="" class="formList">
+                <select id="tierID" class="tier" onchange="changeColor()">
+                    <option value="Bronze" class="bornze">브론즈</option>
+                    <option value="Silver" class="silver">실버</option>
+                    <option value="Gold" class="gold">골드</option>
+                    <option value="Pletinum" class="pletinum">플레</option>
+                    <option value="Diamond" class="diamond">다이아</option>
+                </select>
+                <select name="level" class="level">
+                    <option value="five">5</option>
+                    <option value="four">4</option>
+                    <option value="three">3</option>
+                    <option value="two">2</option>
+                    <option value="one">1</option>
+                </select>
+            </form>
+        </div>
+        <div class="nextBtn">
+            <button class="nextbtnClass" id="nextBtn">다음</button>
+        </div>
+      </div>
 </body>
 </html>
