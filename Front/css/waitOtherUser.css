@@ -1,3 +1,6 @@
+.header{
+    min-width: 1500px;
+}
 .headerText{
     font-size: 90px;
 }
@@ -8,6 +11,7 @@
 
     display: flex;
     width: 80%;
+    min-width: 1850px;
     height: 700px;
     margin-left: 10%;
     margin-right: 70px;
@@ -23,7 +27,7 @@
 
 .mainBtn {
     display: block;
-    margin-left: 1650px;
+    margin-left: 1850px;
     width: 230px;
     height: 100px;
     font-size: 50px;
@@ -31,6 +35,7 @@
     background-color: #B67352;
     border-radius: 30px;
     box-shadow: 5px 10px 10px gray;
+    cursor: pointer;
   }
   
   .items{
@@ -41,22 +46,37 @@
   }
 
   .item{
-    background-color: white;
     padding-top: 10px;
     margin-left: 100px;
+    border: 1px solid black;
     display: flex;
     align-items: center;
     justify-content: space-around;
     width: 25%;
-    height: 120px;
+    height: 150px;
     border-radius: 20px;
 }
 
 .userName{
     font-size: 60px;
+    /* font-size: calc(30px - (attr(data-name-length) * 1px)); */
+    background-color: rgba(0, 0, 0, 0);
 }
 .state{
-    display: block;
-    margin-bottom: 15px;
-    width: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    width: 150px;
+    height: 60px;
+}
+
+
+.small {
+    font-size: 60px;
+}
+
+.medium {
+    font-size: 40px;
+}
+
+.large {
+    font-size: 30px;
 }
